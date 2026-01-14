@@ -1,0 +1,67 @@
+  /* -------------------------
+  	 Footer Styling (Desktop Only)
+  ------------------------- */
+  @media (min-width: 992px) {
+  	.footer {
+  		background-color: #fff;
+			background-color: red;
+  		padding-top: 0.25rem !important;
+  		padding-bottom: calc(0.25rem + 10px) !important; /* extra 10px at bottom */
+  		min-height: auto !important;
+  	}
+
+  	.footer .credits {
+  		padding-top: 0 !important;
+  	}
+
+  	.footer .credits > div {
+  		margin-bottom: 0 !important;
+  	}
+
+  	.footer .quick-links {
+  		margin-top: 0 !important;
+  	}
+  }
+  .footer,
+  .footer .container,
+  .footer .row {
+  	background-color: #fff !important;
+  }	
+
+/* -------------------------
+   Section Top Spacing (Desktop Only)
+------------------------- */
+@media (min-width: 992px) {
+
+  .about__v4.section,
+  .contact__v2.section,
+	.faq__v2.section,
+	.pricing__v2.section,
+	.services__v3.section,
+	.testimonials__v2.section,
+	.howitworks__v1.section,
+  .hero__v6.section
+	{
+    padding-top: 8rem !important;   /* adjust to match About */
+    padding-bottom: 4rem !important;
+  }
+
+  /* Sticky footer layout */
+  html, body {
+    height: 100%;
+  }
+
+  .site-wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  .footer {
+    margin-top: auto;
+  }
+}
